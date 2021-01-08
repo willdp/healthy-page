@@ -1,0 +1,37 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color:rgba(1, 1, 1, 0.01);
+}
+
+.item-menu {
+    padding: 10px 30px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.item-menu:hover {
+    background-color: #b2f779;
+    border-radius: 5px;
+}
+
+.menu {
+    align-self: center;
+    margin-right: 10%;
+    color:#FFFFFF;
+    display: flex;
+}
+
+.btn {
+    background-color: #b2f779;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.header-title {
+    color: #b2f779;
+    margin-left: 10%;
+    cursor: pointer;
+}

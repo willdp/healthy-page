@@ -1,0 +1,35 @@
+.main-page-img {
+    margin-left: auto;
+}
+
+.main-page-container {
+    text-align: end;
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+}
+
+.main-page-text {
+    width: 300px;
+    text-align: initial;
+    font-size: 3em;
+    font-weight: bold;
+    color: #0c0030;
+}
+
+.main-page-content {
+    align-self: center;
+    margin-left: 10%;
+}
+
+.searcher {
+    display: flex;
+}
+
+.btn {
+    background-color: #b2f779;
+}
+
+.form-control {
+    border-color: #0c0030;
+}

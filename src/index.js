@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/header/header';
+import MainPage from './components/pages/main-page/main-page';
+import BestRecipes from './components/pages/recipes/recipes';
+import KnowMore from './components/pages/know-more/know-more';
+import Blog from './components/pages/blog/blog';
+import Join from './components/pages/join/join';
+import Register from './components/pages/register/register';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header></Header>
+    <MainPage></MainPage>
+    <BestRecipes></BestRecipes>
+    <KnowMore></KnowMore>
+    <Blog></Blog>
+    <Join></Join>
+    <Register></Register>
   </React.StrictMode>,
   document.getElementById('root')
 );

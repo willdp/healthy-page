@@ -1,0 +1,24 @@
+.join-action {
+    display: flex;
+    width: 85%;
+    margin-top: 5%;
+}
+.join-action button {
+    margin-left: 2%;
+    padding: 3% 9%;
+}
+
+.join-container {
+    display: flex;
+}
+
+.join-content h1{
+    width: 75%;
+    font-weight: 700;
+    color: #0c0030;
+}
+
+.join-content {
+    margin: auto;
+    margin-left: 10%;
+}

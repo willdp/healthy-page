@@ -1,0 +1,28 @@
+.service-container {
+    display: flex;
+}
+
+.service-text {
+    width: 400px;
+    margin: auto 0;
+    display: block;
+}
+
+.service-container img {
+    align-self: end;
+}
+
+.service-text p {
+    margin-top: 40px;
+    color: gray;
+}
+
+.service-text h2 {
+    color: #0c0030;
+}
+
+.btn {
+    background-color: #b2f779;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}

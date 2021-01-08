@@ -1,0 +1,49 @@
+.register-container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 20px;
+}
+
+.input-button {
+    display: flex;
+}
+
+.input-button button {
+    display: flex;
+    margin-left: 3%
+}
+
+
+.btn-register {
+    background-color: #b2f779;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin: 3% 0;
+    font-weight: bold;
+}
+
+
+
+.register-page {
+    padding-left: 10%;
+    overflow: hidden;
+}
+
+.register-page h1 {
+    color:#0c0030;
+    padding: 3% 0;
+}
+
+.register {
+    display: flex;
+}
+
+.register .register-img {
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.warning {
+    border-color: red;
+}
